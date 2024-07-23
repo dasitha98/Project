@@ -1,0 +1,19 @@
+.main {
+  cursor: pointer;
+  position: relative;
+}
+.text{
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.text:hover{
+  background-color: #d9f3d9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.popover{
+  position: absolute;
+  top: 10px;
+  left: -30px;
+}

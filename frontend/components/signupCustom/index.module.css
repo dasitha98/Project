@@ -1,0 +1,21 @@
+.GoogleSignInBotton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  background: rgb(235, 235, 227);
+  border-radius: 5px;
+  padding: 8px;
+  /* color: #521818; */
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.GoogleSignInIcon {
+  margin-right: 5px;
+  font-size: 20px;
+}
+.GoogleSignInText {
+  font-size: 14px;
+}

@@ -1,0 +1,41 @@
+.main {
+  width: 100%;
+}
+.box {
+  width: 60%;
+  padding: 40px;
+}
+.button {
+  background-color: rgb(240, 228, 228);
+  margin-bottom: 10px;
+}
+.button:hover {
+  background-color: #d9f3d9;
+  margin-bottom: 10px;
+}
+
+.card {
+  box-shadow: none;
+  border: none;
+  padding: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .box {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .box {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    width: 80%;
+    /* height: 90%; */
+    overflow: scroll;
+  }
+}

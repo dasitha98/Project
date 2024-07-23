@@ -1,0 +1,42 @@
+.main {
+  width: 100%;
+}
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.table {
+  width: 100%;
+}
+.action {
+  cursor: pointer;
+}
+.saerchOption {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 8px 10px;
+  border: 1px solid #6a726c;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.searchInput {
+  border: none;
+  width: 90%;
+  outline: none;
+}
+.searchText {
+  font-family: Arial;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  color: #6a726c;
+}
+.searchIcon {
+  margin-right: 15px;
+  font-size: 25px;
+}

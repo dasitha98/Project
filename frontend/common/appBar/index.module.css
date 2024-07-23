@@ -1,0 +1,104 @@
+.main {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(247, 243, 243);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menuIcon {
+  display: none;
+}
+.iconDivClick {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 20px;
+  padding: 10px 20px;
+  background-color: #d9f3d9;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.heading {
+  font-family: "Arial";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  color: #6a726c;
+  display: flex;
+  justify-content: center;
+}
+
+.innerMain {
+  width: 100%;
+}
+.rightDiv {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    border-radius: 5px;
+    /* padding: 0 5%; */
+  }
+  .listDiv {
+    margin-top: 30px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .menuIcon {
+    display: block;
+  }
+  .innerMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rightDiv {
+    margin-right: 20px;
+  }
+  .leftDiv {
+    margin-left: 20px;
+  }
+  .iconDiv {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 20px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+  }
+  .iconDiv:hover {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 20px;
+    padding: 10px 20px;
+    background-color: #d9f3d9;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+
+  .userIcon {
+    color: #6a726c;
+    font-size: 25px;
+    margin: 0 20px 0 0;
+  }
+
+  .iconName {
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #6a726c;
+  }
+}
